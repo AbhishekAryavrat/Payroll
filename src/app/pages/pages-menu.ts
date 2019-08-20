@@ -236,6 +236,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   children: [
       // {
       //   title: 'Login',
+      //   icon: 'left Arrow Free icon',
       //   link: '/auth/login',
       // },
       // {

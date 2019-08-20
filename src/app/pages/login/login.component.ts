@@ -1,19 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { NbLoginComponent } from '@nebular/auth';
+
+
 
 @Component({
   selector: 'ngx-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+ templateUrl: './login.component.html',
+  //sstyleUrls: ['./login.component.scss']
 })
 
-export class LoginComponent implements OnInit  {
-  constructor(){
-  
-  
-  }
-
-  ngOnInit() {
-  }
+export class LoginComponent  extends NbLoginComponent  {
 
 }
 
