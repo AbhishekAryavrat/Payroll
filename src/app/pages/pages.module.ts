@@ -10,6 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { NbCheckboxModule } from '@nebular/theme';
 import { NbInputModule } from '@nebular/theme';
+import { OneColumnComponent } from './login/layouts/one-column/one-column.component';
+import { NbCardModule } from '@nebular/theme';
+
 
 @NgModule({
   imports: [
@@ -22,10 +25,12 @@ import { NbInputModule } from '@nebular/theme';
     FormsModule,
     NbInputModule,
     NbCheckboxModule,
+    NbCardModule,
   ],
   declarations: [
     PagesComponent,
     LoginComponent,
+    OneColumnComponent,
   ],
 })
 export class PagesModule {

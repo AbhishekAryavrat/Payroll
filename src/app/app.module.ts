@@ -21,11 +21,12 @@ import {
   NbWindowModule,
 
 } from '@nebular/theme';
-import { AuthComponent } from './auth/auth.component';
+
+
 
 
 @NgModule({
-  declarations: [AppComponent, AuthComponent],
+  declarations: [AppComponent,],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
