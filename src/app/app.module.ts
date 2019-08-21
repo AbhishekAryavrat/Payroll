@@ -19,7 +19,7 @@ import {
   NbSidebarModule,
   NbToastrModule,
   NbWindowModule,
-  
+
 } from '@nebular/theme';
 import { AuthComponent } from './auth/auth.component';
 
@@ -33,7 +33,7 @@ import { AuthComponent } from './auth/auth.component';
     AppRoutingModule,
 
     ThemeModule.forRoot(),
-   
+
 
     NbSidebarModule.forRoot(),
     NbMenuModule.forRoot(),

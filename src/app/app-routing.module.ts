@@ -29,7 +29,7 @@ const routes: Routes = [
       },
       {
         path: 'register',
-       component: NbRegisterComponent,
+        component: NbRegisterComponent,
       },
       {
         path: 'logout',

@@ -1,9 +1,8 @@
 import { NbMenuItem } from '@nebular/theme';
-import { link } from 'fs';
 
 export const MENU_ITEMS: NbMenuItem[] = [
 
- 
+
   // {
   //   title: 'E-commerce',
   //   icon: 'shopping-cart-outline',
@@ -14,7 +13,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'Login',
     icon: 'lock-outline',
     link: '/pages/login'
-  }
+  },
   // {
   //   title: 'IoT Dashboard',
   //   icon: 'home-outline',
@@ -234,25 +233,25 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   title: 'Auth',
   //   icon: 'lock-outline',
   //   children: [
-      // {
-      //   title: 'Login',
-      //   icon: 'left Arrow Free icon',
-      //   link: '/auth/login',
-      // },
-      // {
-      //   title: 'Register',
-      //   link: '/auth/register',
-      // },
-      // {
-      //   title: 'Request Password',
-      //   link: '/auth/request-password',
-      // },
-      // {
-      //   title: 'Reset Password',
-      //   link: '/auth/reset-password',
-      // },
-    // ],
+  // {
+  //   title: 'Login',
+  //   icon: 'left Arrow Free icon',
+  //   link: '/auth/login',
+  // },
+  // {
+  //   title: 'Register',
+  //   link: '/auth/register',
+  // },
+  // {
+  //   title: 'Request Password',
+  //   link: '/auth/request-password',
+  // },
+  // {
+  //   title: 'Reset Password',
+  //   link: '/auth/reset-password',
+  // },
+  // ],
   // },
 
-  
+
 ];
