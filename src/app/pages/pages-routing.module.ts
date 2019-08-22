@@ -3,8 +3,9 @@ import { NgModule } from '@angular/core';
 import { LoginComponent } from './login/login.component';
 import { PagesComponent } from './pages.component';
 import { RegisterComponent } from './register/register.component';
-import { ResetPasswordComponent }  from './reset-password/reset-password.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ECommerceComponent } from '../pages/e-commerce/e-commerce.component';
 
 const routes: Routes = [{
   path: '',
@@ -16,15 +17,19 @@ const routes: Routes = [{
     },
     {
       path: 'register',
-      component : RegisterComponent,
+      component: RegisterComponent,
     },
     {
       path: 'reset-password',
       component: ResetPasswordComponent,
     },
     {
-      path:'forgot-password',
+      path: 'forgot-password',
       component: ForgotPasswordComponent,
+    },
+    {
+        path: 'dashboard',
+        component: ECommerceComponent,
     },
     {
       path: '',
