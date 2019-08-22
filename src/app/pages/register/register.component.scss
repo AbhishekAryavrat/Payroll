@@ -1,6 +1,5 @@
-
 :host {
-  display:block;
+  display: block;
   width: 100%;
   max-width: 35rem;
   margin: auto;
@@ -13,6 +12,9 @@
     .label {
       display: block;
       margin-bottom: 0.5rem;
+    }
+    .title {
+      margin-bottom: 2rem;
     }
 
     .forgot-password {

@@ -12,6 +12,11 @@ import { NbCheckboxModule } from '@nebular/theme';
 import { NbInputModule } from '@nebular/theme';
 import { OneColumnComponent } from './login/layouts/one-column/one-column.component';
 import { NbCardModule } from '@nebular/theme';
+import { NbWindowModule } from '@nebular/theme';
+import { RegisterComponent } from './register/register.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   imports: [
@@ -25,12 +30,17 @@ import { NbCardModule } from '@nebular/theme';
     NbInputModule,
     NbCheckboxModule,
     NbCardModule,
+    NbWindowModule,
 
   ],
   declarations: [
     PagesComponent,
     LoginComponent,
     OneColumnComponent,
+    RegisterComponent,
+    ResetPasswordComponent,
+    ForgotPasswordComponent,
+    LogoutComponent,
   ],
 })
 export class PagesModule {

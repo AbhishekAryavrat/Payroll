@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   template: `
     <nb-layout windowMode>
       <nb-layout-column>
-        <ng-content select="router-outlet"></ng-content>
+        <ng-content select="router-outlet" responsive>
+        </ng-content>
       </nb-layout-column>
     </nb-layout>
   `,
