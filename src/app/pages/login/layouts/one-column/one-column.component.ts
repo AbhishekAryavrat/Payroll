@@ -5,13 +5,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./one-column.component.scss'],
   template: `
     <nb-layout windowMode>
-    
-     
       <nb-layout-column>
         <ng-content select="router-outlet"></ng-content>
       </nb-layout-column>
-
-      </nb-layout>
+    </nb-layout>
   `,
 })
 export class OneColumnComponent {

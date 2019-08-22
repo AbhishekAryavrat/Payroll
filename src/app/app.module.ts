@@ -19,23 +19,15 @@ import {
   NbSidebarModule,
   NbToastrModule,
   NbWindowModule,
-
 } from '@nebular/theme';
-
-
-
-
 @NgModule({
-  declarations: [AppComponent,],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-
     ThemeModule.forRoot(),
-
-
     NbSidebarModule.forRoot(),
     NbMenuModule.forRoot(),
     NbDatepickerModule.forRoot(),

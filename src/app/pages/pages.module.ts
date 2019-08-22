@@ -13,7 +13,6 @@ import { NbInputModule } from '@nebular/theme';
 import { OneColumnComponent } from './login/layouts/one-column/one-column.component';
 import { NbCardModule } from '@nebular/theme';
 
-
 @NgModule({
   imports: [
     PagesRoutingModule,
@@ -26,6 +25,7 @@ import { NbCardModule } from '@nebular/theme';
     NbInputModule,
     NbCheckboxModule,
     NbCardModule,
+
   ],
   declarations: [
     PagesComponent,
