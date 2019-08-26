@@ -6,6 +6,6 @@ import { NbLogoutComponent } from '@nebular/auth';
   templateUrl: './logout.component.html',
   styleUrls: ['./logout.component.scss'],
 })
-export class LogoutComponent extends NbLogoutComponent {
+export class LogoutComponent extends NbLogoutComponent { }
 
-}
+

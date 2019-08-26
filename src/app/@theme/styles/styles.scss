@@ -14,13 +14,11 @@
 
 // loading progress bar theme
 @import './pace.theme';
-
 @import './layout';
 @import './overrides';
 
 // install the framework and custom global styles
 @include nb-install() {
-
   // framework global styles
   @include nb-theme-global();
   @include nb-auth-global();
@@ -30,4 +28,4 @@
   @include ngx-pace-theme();
 
   @include nb-overrides();
-};
+}

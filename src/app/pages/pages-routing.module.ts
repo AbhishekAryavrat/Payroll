@@ -1,10 +1,6 @@
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { LoginComponent } from './login/login.component';
 import { PagesComponent } from './pages.component';
-import { RegisterComponent } from './register/register.component';
-import { ResetPasswordComponent } from './reset-password/reset-password.component';
-import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ECommerceComponent } from '../pages/e-commerce/e-commerce.component';
 
 const routes: Routes = [{
@@ -12,28 +8,12 @@ const routes: Routes = [{
   component: PagesComponent,
   children: [
     {
-      path: 'login',
-      component: LoginComponent,
-    },
-    {
-      path: 'register',
-      component: RegisterComponent,
-    },
-    {
-      path: 'reset-password',
-      component: ResetPasswordComponent,
-    },
-    {
-      path: 'forgot-password',
-      component: ForgotPasswordComponent,
-    },
-    {
-        path: 'dashboard',
-        component: ECommerceComponent,
+      path: 'dashboard',
+      component: ECommerceComponent,
     },
     {
       path: '',
-      redirectTo: 'login',
+      redirectTo: 'dashboard',
       pathMatch: 'full',
     },
   ],
@@ -43,5 +23,4 @@ const routes: Routes = [{
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class PagesRoutingModule {
-}
+export class PagesRoutingModule {}

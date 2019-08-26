@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngx-users',
-
   styleUrls: ['./users.component.scss'],
   template: `
       <ngx-one-column>

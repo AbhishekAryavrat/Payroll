@@ -9,13 +9,6 @@
             </ul>
         </nb-alert>
 
-        <!-- <nb-alert *ngIf="showMessages.success && messages?.length && !submitted" outline="success" role="alert">
-            <p class="alert-title"><b>Hooray!</b></p>
-            <ul class="alert-message-list">
-                <li *ngFor="let message of messages" class="alert-message">{{ message }}</li>
-            </ul>
-        </nb-alert> -->
-
         <form (ngSubmit)="register()" #form="ngForm" aria-labelledby="title">
 
             <div class="form-control-group">

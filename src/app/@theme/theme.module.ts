@@ -21,7 +21,8 @@ import {
   FooterComponent,
   HeaderComponent,
   SearchInputComponent,
-  TinyMCEComponent } from './components';
+  TinyMCEComponent,
+} from './components';
 import {
   CapitalizePipe,
   PluralPipe,
